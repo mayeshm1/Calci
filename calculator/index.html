@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+</head>
+<body>
+    <div class="calc">
+        <div class="container">
+            <input type="text" class="inputEq" readonly>
+            <input type="text" class="inputBox" value="0"><br>
+            <button class="input-btn" onclick="clearVal()">C</button>
+            <button class="hist-btn" onclick="showHistory()">H</button><br>
+
+        <button class="input-btn" onclick="getVal('7')">7</button>
+        <button class="input-btn" onclick="getVal('8')">8</button>
+        <button class="input-btn" onclick="getVal('9')">9</button>
+        <button class="input-btn" onclick="getop('/')">/</button><br>
+
+        <button class="input-btn" onclick="getVal('4')">4</button>
+        <button class="input-btn" onclick="getVal('5')">5</button>
+        <button class="input-btn" onclick="getVal('6')">6</button>
+        <button class="input-btn" onclick="getop('*')">*</button><br>
+
+        <button class="input-btn" onclick="getVal('1')">1</button>
+        <button class="input-btn" onclick="getVal('2')">2</button>
+        <button class="input-btn" onclick="getVal('3')">3</button>
+        <button class="input-btn" onclick="getop('-')">-</button><br>
+
+        <button class="input-btn" onclick="getVal('.')">.</button>
+        <button class="input-btn" onclick="getVal('0')">0</button>
+        <button class="input-btn" onclick="getAns()">=</button>
+        <button class="input-btn" onclick="getop('+')">+</button><br>
+
+    </div>
+    <div class="history">
+        <div class="btn-remove" onclick="clrHistory()">D</div>
+        <div class="history-div"></div>
+    </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

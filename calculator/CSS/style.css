@@ -1,0 +1,67 @@
+.inputBox{
+    height: 30px;
+    width: 180px;
+    margin-bottom: 7px;
+    text-align: right;
+    font-size: x-large;
+    border-top: none;
+    background-color: beige;
+}
+
+.inputEq{
+    height: 15px;
+    width: 180px;
+    border-bottom: none;
+    text-align: right;
+    background-color: beige;
+}
+.inputEq:focus{
+    outline: none;
+}
+.inputBox:focus{
+    outline: none;
+}
+
+.input-btn{
+    height: 30px;
+    width: 40px;
+    padding: 10px;
+    margin: 2px;
+    background-color: blanchedalmond;
+}
+
+.container{
+    border: 2px solid black;
+    height: 235px;
+    width: 190px;
+    padding: 10px;
+    background-color: blueviolet;
+    
+    display: inline-block;
+}
+
+.calc{
+    justify-content: center;
+    display: flex;
+}
+
+.history{
+    height: 255px;
+    width: 190px;
+    border: 2px solid black;
+    overflow: auto;
+    
+    
+}
+
+.btn-remove{
+    float: right;
+}
+.hist-btn{
+    height: 30px;
+    width: 40px;
+    padding: 10px;
+    margin: 2px;
+    background-color: aquamarine;
+
+}
